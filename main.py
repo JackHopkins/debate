@@ -148,6 +148,6 @@ def load_debate_from_file(file_path: str) -> Debate:
 Statement.update_forward_refs()
 
 if __name__ == "__main__":
-    debate_file_path = "examples/climate.txt"
+    debate_file_path = "examples/physics.txt"
     debate = load_debate_from_file(debate_file_path)
     print(debate)
