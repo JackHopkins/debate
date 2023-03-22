@@ -1,2 +1,4 @@
 pydantic
 lark-parser
+openai
+backoff
